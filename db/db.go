@@ -34,7 +34,7 @@ func Init() {
 	//defer client.Disconnect(ctx)
 
 
-	db = client.Database("echo-rest-api")
+	db = client.Database(name)
 }
 
 func Connect() (*mongo.Database, error) {
